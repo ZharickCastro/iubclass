@@ -1,12 +1,13 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
+import { ContadorFavoritos } from './s05/01-servicio/contador-favoritos';
 
 // El componente raíz. No tiene lógica del negocio: solo la cáscara de la
 // aplicación (encabezado y navegación) y el hueco donde el enrutador pone
 // la vista que corresponda a la URL.
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink, RouterLinkActive],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, ContadorFavoritos],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })

@@ -5,7 +5,11 @@
       <p class="text-[11px] font-bold uppercase tracking-[0.2em] text-amber-400">
         {{ modulo() }}
       </p>
-      <h1 class="mt-1 text-2xl font-bold">{{ titulo() }}</h1>
+      <h1 class="mt-1 flex items-center gap-3 text-2xl font-bold">
+        {{ titulo() }}
+        <!-- S05 · ejemplo 1c: el mismo estado que la lista de /s05, leído desde un servicio -->
+        <app-contador-favoritos />
+      </h1>
     </div>
 
     <!-- NAVEGACIÓN · routerLink no recarga la página, cambia la vista -->
@@ -32,6 +36,13 @@
         S04 · Ejemplos
       </a>
       <a
+        routerLink="/s05"
+        routerLinkActive="bg-slate-50 text-slate-900"
+        class="rounded-t-lg px-4 py-2 text-sm font-semibold text-slate-300 hover:text-white"
+      >
+        S05 · Ejemplos
+      </a>
+      <a
         routerLink="/acerca"
         routerLinkActive="bg-slate-50 text-slate-900"
         class="rounded-t-lg px-4 py-2 text-sm font-semibold text-slate-300 hover:text-white"
@@ -47,6 +58,6 @@
   </main>
 
   <footer class="mx-auto max-w-5xl px-6 pb-10 text-xs text-slate-400">
-    IUB · 2026-III · Sesión S04
+    IUB · 2026-III · Sesión S05
   </footer>
 </div>
