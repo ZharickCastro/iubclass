@@ -36,7 +36,7 @@ import { CurrencyPipe, DatePipe, DecimalPipe, KeyValuePipe, UpperCasePipe } from
         </tr>
         <tr class="border-t border-slate-100">
           <td class="px-3 py-2 font-mono text-xs">pi | number:'1.2-2'</td>
-          <td class="px-3 py-2 font-semibold">{{ pi | number: '1.2-2' }}</td>
+          <td class="px-3 py-2 font-semibold">{{ pi | number: '1.1-2' }}</td>
         </tr>
         <tr class="border-t border-slate-100">
           <td class="px-3 py-2 font-mono text-xs">hoy | date:'fullDate'</td>
@@ -59,7 +59,7 @@ import { CurrencyPipe, DatePipe, DecimalPipe, KeyValuePipe, UpperCasePipe } from
   `,
 })
 export class EjemploIntegrados {
-  precio = 1800;
+  precio = 351417259;
   pi = 3.14159;
   hoy = new Date();
   existencias = { mango: 12, guayaba: 8, patilla: 2 };

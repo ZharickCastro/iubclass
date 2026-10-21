@@ -64,7 +64,7 @@ interface Producto {
   `,
 })
 export class EjemploIf {
-  total = signal(72800);
+  total = signal(0);
 
   // El tipo admite null: puede no haber ningún producto seleccionado.
   productoSeleccionado = signal<Producto | null>(null);

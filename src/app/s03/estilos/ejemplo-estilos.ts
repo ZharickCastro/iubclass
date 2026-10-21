@@ -44,7 +44,7 @@ interface Producto {
   styles: `
     :host { display: block; border: 2px dashed #94a3b8; border-radius: .75rem; padding: .75rem; }
     td { color: #1d4ed8; font-weight: 600; padding: .35rem .6rem; border-top: 1px solid #e2e8f0; }
-    .premium { background: #fef3c7; }
+    .premium { background: #ff7a0dcc; }
     .btn { margin-top: .6rem; border-radius: .5rem; background: #1e293b; color: #fff; padding: .35rem .8rem; font-size: .8rem; font-weight: 600; }
   `,
 })
